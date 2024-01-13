@@ -3,13 +3,15 @@ import Item from './item'
 
 export default function List() {
   return (
-      <div>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-        <Item/>
-      </div>
+      <div className="pt-4">
+  <div className="container px-lg-5">
+    <div className="row gx-lg-5">
+        <div>
+          <Item/>
+        </div>
+    </div>
+  </div>
+</div>
+
   )
 }
